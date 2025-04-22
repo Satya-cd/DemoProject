@@ -20,6 +20,7 @@ class StringGetterActivity : ComponentActivity() {
         setContent {
             DemoApp2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    innerPadding
                 }
             }
         }
